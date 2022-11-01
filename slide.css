@@ -1,0 +1,44 @@
+html{
+  box-sizing: border-box;
+  background: #0011ff;
+  font-size: 20px;
+  font-weight: 200;
+  font-family:'helvetica neue';
+}
+
+body{
+  margin:0px;
+}
+
+article{
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+}
+
+img {
+    margin: 10px;
+    width: 60%;
+    opacity: 0;
+}
+
+.float-right{
+  float: right;
+  transform: translateX(+50%) scale(0.95);
+}
+
+.float-left{
+  float: left;
+  transform: translateX(-50%) scale(0.95);
+}
+
+.slide-in.active{
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+
+.slide-in{
+  transition: all .5s;
+}
